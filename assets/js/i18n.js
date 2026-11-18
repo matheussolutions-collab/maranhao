@@ -36,6 +36,9 @@ window.TEXTOS_EN = {
   l2_t: "Talk to our team",
   l2_d: "Ask about models, storage and payment options.",
   l2_go: "Chat",
+  l3_t: "VIP deals group",
+  l3_d: "Get deals and new arrivals first, straight to your WhatsApp.",
+  l3_go: "Join",
 
   // Carrossel
   car_t: "Featured",

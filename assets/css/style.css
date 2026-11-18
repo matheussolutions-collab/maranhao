@@ -433,7 +433,8 @@ img, svg { display: block; max-width: 100%; }
 }
 .link.is-hot .ic svg { width: 24px; height: 24px; }
 .link .tag {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
   align-items: center;
   gap: 7px;
   margin-top: 7px;
