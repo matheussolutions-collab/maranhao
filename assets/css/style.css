@@ -409,6 +409,81 @@ img, svg { display: block; max-width: 100%; }
 .link:hover .arr { background: var(--brand); color: var(--on-brand); }
 .link .arr svg { width: 14px; height: 14px; }
 
+/* Card em destaque (atendentes): borda e brilho laranja, ícone e botão em degradê */
+.link.is-hot {
+  padding: 18px;
+  border: 1.5px solid rgb(var(--brand-rgb) / .7);
+  background:
+    radial-gradient(120% 140% at 0% 0%, rgb(var(--brand-rgb) / .14), transparent 60%),
+    var(--card);
+  box-shadow: 0 0 0 6px rgb(var(--brand-rgb) / .07), 0 0 36px -8px rgb(var(--brand-rgb) / .5);
+}
+.link.is-hot:hover { border-color: var(--brand); }
+.link.is-hot .ic {
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  color: var(--on-brand);
+  background: linear-gradient(135deg, var(--brand-4), var(--brand) 50%, var(--brand-dark));
+  box-shadow: 0 10px 22px -10px var(--cta-shadow);
+}
+.link.is-hot .ic svg { width: 24px; height: 24px; }
+.link .tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 7px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid rgb(var(--brand-rgb) / .45);
+  background: rgb(var(--brand-rgb) / .1);
+  color: var(--brand-3);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.link .tag i { width: 6px; height: 6px; border-radius: 50%; background: var(--brand); animation: pulse 1.8s ease-in-out infinite; }
+.link .go {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 12px;
+  color: var(--on-brand);
+  font-family: var(--ff-title);
+  font-size: 15px;
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--brand-4), var(--brand) 50%, var(--brand-dark));
+  box-shadow: 0 12px 26px -12px var(--cta-shadow);
+  transition: transform .2s, filter .2s;
+}
+.link .go svg { width: 13px; height: 13px; }
+.link.is-hot:hover .go { transform: translateX(2px); filter: brightness(1.06); }
+/* Anel de "toque aqui" no canto do botão */
+.link .tap {
+  position: absolute;
+  right: -9px;
+  bottom: -9px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1.5px solid rgb(var(--brand-rgb) / .85);
+  background: radial-gradient(circle, var(--brand) 0 3.5px, rgb(var(--brand-rgb) / .12) 4.5px);
+  animation: tapRing 2.2s ease-in-out infinite;
+}
+@keyframes tapRing {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.18); opacity: .7; }
+}
+
 /* Títulos de cards, links e CTA */
 .card .t, .link .t, .cta .t { font-family: var(--ff-title); font-weight: 500; letter-spacing: -.16px; line-height: 20px; }
 .card .t { font-size: 15px; line-height: 18px; letter-spacing: 0; }
@@ -623,11 +698,12 @@ img, svg { display: block; max-width: 100%; }
 @media (prefers-reduced-motion: reduce) {
   .js .rv { opacity: 1; }
   .js .rv.in, .js .card.rv.in .img img, .js .card.rv.in .img::after,
-  .cta, .status i, .handle, .ticker div, .i18n-out, .i18n-in, .lang-sweep.go { animation: none; }
+  .cta, .status i, .handle, .ticker div, .i18n-out, .i18n-in, .lang-sweep.go,
+  .link .tag i, .link .tap { animation: none; }
   .progress { display: none; }
   .slide { transition: opacity .3s; }
   .slide.is-on img, .car-dots button[aria-current="true"]::after { animation: none; }
-  .photo, .cta, .social a, .card, .link { transition: none; }
+  .photo, .cta, .social a, .card, .link, .link .go { transition: none; }
 }
 
 /* ---------- Celular ---------- */
@@ -638,5 +714,8 @@ img, svg { display: block; max-width: 100%; }
   .social a { height: 60px; font-size: 10px; }
   .cta .t { font-size: 19px; }
   .card .row { flex-wrap: wrap; }
+  /* Card em destaque: botão desce e ocupa a largura toda */
+  .link.is-hot { flex-wrap: wrap; }
+  .link.is-hot .go { width: 100%; justify-content: center; margin-top: 2px; }
   .card .row .btn { width: 100%; justify-content: center; }
 }

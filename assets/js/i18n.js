@@ -35,6 +35,7 @@ window.TEXTOS_EN = {
   l1_d: "Cases, screen protectors, chargers and cables for your device.",
   l2_t: "Talk to our team",
   l2_d: "Ask about models, storage and payment options.",
+  l2_go: "Chat",
 
   // Carrossel
   car_t: "Featured",
