@@ -16,12 +16,12 @@ assets/img/logo.png         logo completa, letras brancas (tema escuro)
 assets/img/logo-escura.png  logo completa, letras escuras (tema claro)
 assets/img/logo-icone.png   só o "M" (foto redonda do topo)
 assets/img/favicon.png      ícone da aba do navegador (o "M", 256 × 256)
-assets/img/banner-1.jpg     iPhone 18 Pro Max
-assets/img/banner-2.jpg     Apple Watch Series 12
-assets/img/banner-3.jpg     AirPods 5
-assets/img/banner-4.jpg     Xiaomi
-assets/img/banner-5.jpg     JBL
-assets/img/destaque-N.jpg   carrossel "Em destaque" (1 a 6, 1080 × 1220 px; ainda não enviadas)
+assets/img/banner-1.jpg     iPhone 18 Pro
+assets/img/banner-2.jpg     AirPods 5
+assets/img/banner-3.jpg     Apple Watch Series 12
+assets/img/banner-4.jpg     iPhone Duo
+assets/img/banner-5.jpg     Apple Watch Ultra 4
+assets/img/destaque-N.jpg   carrossel "Em destaque" (1 a 5, 1080 × 1350 px)
 ```
 
 ## Onde trocar cada coisa
@@ -34,7 +34,7 @@ assets/img/destaque-N.jpg   carrossel "Em destaque" (1 a 6, 1080 × 1220 px; ain
 | Logo | `assets/img/logo.png` (branca) e `assets/img/logo-escura.png` (escura). Troque as duas juntas. |
 | Símbolo do topo | Troque `assets/img/logo-icone.png` e `assets/img/favicon.png`. |
 | Banners dos produtos | `assets/img/banner-N.jpg`, 1600 × 720 px. Troque mantendo o nome. |
-| Carrossel "Em destaque" | `index.html`, seção `CARROSSEL DE DESTAQUES`. Imagens `assets/img/destaque-N.jpg` (1080 × 1220 px). Tempo entre slides: `DELAY` no `main.js`. |
+| Carrossel "Em destaque" | `index.html`, seção `CARROSSEL DE DESTAQUES`. Imagens `assets/img/destaque-N.jpg` (1080 × 1350 px). Tempo entre slides: `DELAY` no `main.js`. |
 | Mapa | `index.html`, seção `MAPA`. Como trocar o local está no comentário. |
 | Palavras da faixa rolando | `index.html`, em `.ticker`. Escreva cada palavra uma vez só. |
 | Resumo para IAs | `llms.txt`. Atualize quando mudar produtos, links ou contato. |

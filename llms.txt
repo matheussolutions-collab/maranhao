@@ -14,8 +14,10 @@ Para comprar, pedir orçamento ou consultar preço, cores e disponibilidade, o c
 
 ## Produtos em destaque
 
-- [iPhone 18 Pro Max](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20comprar%20o%20novo%20iPhone%2018%20Pro%20Max.&type=phone_number&app_absent=0): lançamento da Apple com estrutura unibody, nas cores preto, branco, azul e vinho
-- [Apple Watch Series 12](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20comprar%20o%20novo%20Apple%20Watch%20Series%2012.&type=phone_number&app_absent=0): relógio da Apple voltado para saúde
+- [iPhone 18 Pro](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20comprar%20o%20novo%20iPhone%2018%20Pro.&type=phone_number&app_absent=0): lançamento da Apple com estrutura unibody, câmera Fusion de 48 MP com abertura variável e até 43 horas de vídeo
+- [iPhone Duo](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20comprar%20o%20novo%20iPhone%20Duo.&type=phone_number&app_absent=0): o iPhone dobrável, com a maior tela já feita em um iPhone
+- [Apple Watch Series 12](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20comprar%20o%20novo%20Apple%20Watch%20Series%2012.&type=phone_number&app_absent=0): relógio da Apple com Siri AI, 24 horas de bateria e Sistema de Medições de Saúde
+- [Apple Watch Ultra 4](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20comprar%20o%20novo%20Apple%20Watch%20Ultra%204.&type=phone_number&app_absent=0): até 84 horas de bateria no Modo Pouca Energia e 45 horas no treino
 - [AirPods 5](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20comprar%20os%20novos%20AirPods%205.&type=phone_number&app_absent=0): fones com Cancelamento Ativo de Ruído e Áudio Espacial Personalizado
 - [Xiaomi Redmi e POCO](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20ver%20os%20celulares%20Xiaomi.&type=phone_number&app_absent=0): celulares com bom custo-benefício
 - [JBL](https://api.whatsapp.com/send/?phone=5599991668869&text=Ol%C3%A1%21%20Quero%20ver%20os%20produtos%20JBL.&type=phone_number&app_absent=0): caixas de som e fones

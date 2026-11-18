@@ -19,12 +19,12 @@ window.TEXTOS_EN = {
 
   // Seção de produtos
   sec_t: "New arrivals",
-  sec_p: "The most anticipated launches from Apple, Xiaomi and JBL.<br>Be one of the first to own one.",
-  pr1: "The new Pro Max is here with a unibody design, in four colors. A one-of-a-kind piece, ready for you.",
-  pr2: "The new Watch is powered by the heart: Siri AI, 24-hour battery and Apple's most accurate heart-rate reading.",
-  pr3: "The new AirPods are here with Active Noise Cancellation and Personalized Spatial Audio. Just you and your music.",
-  pr4: "The full Redmi and POCO lineup. Cutting-edge tech with the best value for money.",
-  pr5: "Speakers and headphones to take your sound anywhere.",
+  sec_p: "The most anticipated launches from Apple.<br>Be one of the first to own one.",
+  pr1: "Unibody design. A one-of-a-kind piece. 48 MP Fusion camera with variable aperture and up to 43 hours of video playback.",
+  pr2: "Discover the magic of Active Noise Cancellation. A huge leap in audio, with Adaptive EQ and Personalized Spatial Audio.",
+  pr3: "Powered by the heart. Siri AI, 24-hour battery with fast charging and the new Health Sensing System.",
+  pr4: "Hello. Hi. A new iPhone open to possibilities: the largest display ever on an iPhone, thin and foldable.",
+  pr5: "Relentless to the extreme. Up to 84 hours of battery in Low Power Mode and 45 hours during workouts.",
   new: "New",
   new_pl: "New",
   buy: "I want mine",
