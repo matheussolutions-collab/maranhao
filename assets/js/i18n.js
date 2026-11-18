@@ -8,7 +8,7 @@
 window.TEXTOS_EN = {
   // Perfil
   status: "Support via WhatsApp",
-  bio: "Phones and imported tech in Presidente Dutra (MA). iPhone, Apple Watch, AirPods, Xiaomi and JBL, with personal service from start to finish.",
+  bio: "Curated tech in Presidente Dutra (MA). iPhone, Apple Watch, AirPods, Xiaomi and JBL, with attentive service from first contact to delivery.",
 
   // Redes
   location: "Location",
