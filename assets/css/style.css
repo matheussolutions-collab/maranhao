@@ -447,7 +447,7 @@ img, svg { display: block; max-width: 100%; }
   letter-spacing: .08em;
   text-transform: uppercase;
 }
-.link .tag i { width: 6px; height: 6px; border-radius: 50%; background: var(--brand); animation: pulse 1.8s ease-in-out infinite; }
+.link .tag i { width: 6px; height: 6px; border-radius: 50%; background: var(--brand); }
 .link .go {
   position: relative;
   display: inline-flex;
@@ -699,7 +699,7 @@ img, svg { display: block; max-width: 100%; }
   .js .rv { opacity: 1; }
   .js .rv.in, .js .card.rv.in .img img, .js .card.rv.in .img::after,
   .cta, .status i, .handle, .ticker div, .i18n-out, .i18n-in, .lang-sweep.go,
-  .link .tag i, .link .tap { animation: none; }
+  .link .tap { animation: none; }
   .progress { display: none; }
   .slide { transition: opacity .3s; }
   .slide.is-on img, .car-dots button[aria-current="true"]::after { animation: none; }
